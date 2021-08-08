@@ -1,0 +1,7 @@
+In this problem of Tower Of Hanoi(TOH), we use the method of recursion.
+The base condition is when there is only one disk in the pole.
+In the function solve, we pass the number of disks, the source, the destination and the auxillary poles.
+Assume that the number of discs is 3. Since the number of disks is more than one, the else part will be excecuted. We will now shift (noDisk-1) all the disks except the last disk, to the auxillary pole as the destination and using the destination pole as the auxillary.
+So, for (noDisk-1), ie. 2 disks,we call the solve function. Since this is a recursive function, the solve function will be called with noDisk = 2. Since there are two disks, the base condition will not be executed. The else part will be now excecuted, with calling the solve function again with noDisk-1 , ie. (2-1) 1 disk. Since this is a recursive function the solve function will be called, but this time the number of disks is 1, and hence the base condition will be executed.
+
+Thus, in this manner, by using recursion, we divide a big problem into small sub parts till a base condition is satisfied. And by solving small sub parts, we solve the entire problem with the help of recursion.

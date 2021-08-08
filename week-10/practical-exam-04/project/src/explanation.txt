@@ -1,0 +1,11 @@
+Dear manager, 
+
+The problem (1), was due to no implemention code at Insertion Sort.java, I fixed sort the String according to the names and have to return index;  
+
+The problem (2), was due to no sort function in the search function in Company.java. It was searching a normal array not a sorted array, I fixed it by calling the sort function sortStaffByAge() and then performed the searching.
+
+The problem (3), was due to <your explanation>, I fixed doing <your explanation>;
+
+Kind regards,
+Chirag 
+a1806400
